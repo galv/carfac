@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/284/trunk/src/Modules/Output
+END
+FileOutputJSON.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/267/trunk/src/Modules/Output/FileOutputJSON.h
+END
+FileOutputAIMC.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/263/trunk/src/Modules/Output/FileOutputAIMC.h
+END
+OSCOutput.cc
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/242/trunk/src/Modules/Output/OSCOutput.cc
+END
+OSCOutput.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/242/trunk/src/Modules/Output/OSCOutput.h
+END
+FileOutputHTK.cc
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/175/trunk/src/Modules/Output/FileOutputHTK.cc
+END
+FileOutputHTK.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/154/trunk/src/Modules/Output/FileOutputHTK.h
+END
+FileOutputAIMC.cc
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/263/trunk/src/Modules/Output/FileOutputAIMC.cc
+END
+FileOutputJSON.cc
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/267/trunk/src/Modules/Output/FileOutputJSON.cc
+END

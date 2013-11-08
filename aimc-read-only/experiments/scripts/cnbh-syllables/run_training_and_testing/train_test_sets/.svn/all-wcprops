@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/114/trunk/experiments/scripts/cnbh-syllables/run_training_and_testing/train_test_sets
+END
+train_on_extrema.sh
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/68/trunk/experiments/scripts/cnbh-syllables/run_training_and_testing/train_test_sets/train_on_extrema.sh
+END
+train_on_central.sh
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/68/trunk/experiments/scripts/cnbh-syllables/run_training_and_testing/train_test_sets/train_on_central.sh
+END
+generate_train_test_lists.sh
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/114/trunk/experiments/scripts/cnbh-syllables/run_training_and_testing/train_test_sets/generate_train_test_lists.sh
+END

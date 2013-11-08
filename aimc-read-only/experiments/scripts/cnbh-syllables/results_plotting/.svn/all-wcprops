@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/173/trunk/experiments/scripts/cnbh-syllables/results_plotting
+END
+gen_results.py
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/121/trunk/experiments/scripts/cnbh-syllables/results_plotting/gen_results.py
+END
+plot_all_results.m
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/114/trunk/experiments/scripts/cnbh-syllables/results_plotting/plot_all_results.m
+END
+plot_all_hmm_param_results.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/113/trunk/experiments/scripts/cnbh-syllables/results_plotting/plot_all_hmm_param_results.m
+END
+extract_results.sh
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/113/trunk/experiments/scripts/cnbh-syllables/results_plotting/extract_results.sh
+END
+plot_munged_results.py
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/173/trunk/experiments/scripts/cnbh-syllables/results_plotting/plot_munged_results.py
+END
+munge_results.sh
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/156/trunk/experiments/scripts/cnbh-syllables/results_plotting/munge_results.sh
+END
+spider_plot.py
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/125/trunk/experiments/scripts/cnbh-syllables/results_plotting/spider_plot.py
+END

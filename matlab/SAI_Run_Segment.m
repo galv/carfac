@@ -37,8 +37,9 @@ if size(input, 1) < sai_struct.window_width  % pad out the last result
   input = [input; ...
            zeros(sai_struct.window_width - size(input, 1), size(input, 2))];
 end
-size(input)
-sai_struct.window_width
+#Daniel Galvez's change: Added semicolons to ends of next two lines.
+size(input);
+sai_struct.window_width;
 
 assert(size(input, 1) == sai_struct.window_width)
 

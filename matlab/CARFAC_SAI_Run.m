@@ -1,0 +1,99 @@
+% Copyright 2012, Google, Inc.
+% Author Richard F. Lyon
+%
+% This Matlab file is part of an implementation of Lyon's cochlear model:
+% "Cascade of Asymmetric Resonators with Fast-Acting Compression"
+% to supplement Lyon's upcoming book "Human and Machine Hearing"
+%
+% Licensed under the Apache License, Version 2.0 (the "License");
+% you may not use this file except in compliance with the License.
+% You may obtain a copy of the License at
+%
+%     http://www.apache.org/licenses/LICENSE-2.0
+%
+% Unless required by applicable law or agreed to in writing, software
+% distributed under the License is distributed on an "AS IS" BASIS,
+% WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+% See the License for the specific language governing permissions and
+% limitations under the License.
+
+function [CF, decim_naps, pitchogram, sai] = CARFAC_SAI_Run ...
+  (CF, input_waves, seglen)
+% function [CF, decim_naps, sai] = CARFAC_SAI_Run ...
+%  (CF, input_waves, seglen)
+% This function runs the CARFAC; that is, filters a 1 or more channel
+% sound input to make one or more neural activity patterns (naps)
+% and converts them to SAI and pitchogram.
+%
+% The CF struct holds the filterbank design and state; if you want to
+% break the input up into segments, you need to use the updated CF
+% to keep the state between segments.
+%
+% input_waves is a column vector if there's just one audio channel;
+% more generally, it has a row per time sample, a column per audio channel.
+%
+% naps has a row per time sample, a column per filterbank channel, and
+% a layer per audio channel if more than 1.
+% decim_naps is like naps but time-decimated by the int CF.decimation.
+%
+% the input_waves are assumed to be sampled at the same rate as the
+% CARFAC is designed for; a resampling may be needed before calling this.
+%
+% ohc and agc are optional extra outputs for diagnosing internals.
+
+[n_samp, n_ears] = size(input_waves);
+n_ch = CF.n_ch;
+
+if nargin < 3
+  seglen = 110;  % anything should work; this is 5 ms at default fs
+end
+
+if n_ears ~= CF.n_ears
+  error('bad number of input_waves channels passed to CARFAC_Run')
+end
+
+n_segs = ceil(n_samp / seglen);
+
+decim_naps = zeros(n_segs, CF.n_ch, CF.n_ears);
+pitchogram = [];
+sai_struct = struct('width', 500, 'n_window_pos', 4, ...
+  'window_width', seglen, 'future_lags', 0, ...
+  'channel_smoothing_scale', 1);
+
+for seg_num = 1:n_segs
+  if seg_num == n_segs
+    % The last segement may be short of seglen, but do it anyway:
+    k_range = (seglen*(seg_num - 1) + 1):n_samp;
+  else
+    k_range = seglen*(seg_num - 1) + (1:seglen);
+  end
+  % Process a segment to get a slice of decim_naps, and plot AGC state:
+  [seg_naps, CF] = CARFAC_Run_Segment(CF, input_waves(k_range, :));
+  
+  for ear = 1:n_ears
+    decim_naps(seg_num, :, ear) = CF.ears(ear).IHC_state.ihc_accum / seglen;
+    % CF.ears(ear).IHC_state.ihc_accum = zeros(n_ch,1);  %  reset accum
+    % decay instead of reset:
+    CF.ears(ear).IHC_state.ihc_accum = 0.75 * CF.ears(ear).IHC_state.ihc_accum;
+  end
+  
+  sai_struct = SAI_Run_Segment(sai_struct, seg_naps);
+  
+  if isempty(pitchogram)
+    % shape it like decim_naps, one row per segment:
+    pitchogram = zeros(n_segs, size(sai_struct.frame, 2), CF.n_ears);
+  end
+  
+  for ear = 1:n_ears  % probably just 1 ear.
+    pitchogram(seg_num, :, ear) = mean(sai_struct.frame, 1);
+  end
+  
+  figure(10)  % show the frames as they're computed
+  imagesc(sai_struct.frame)
+  colormap(1 - gray)
+  
+end
+
+sai = sai_struct;
+
+

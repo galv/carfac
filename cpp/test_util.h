@@ -24,7 +24,7 @@
 #include <fstream>
 #include <string>
 
-#include <Eigen/Core>
+#include <eigen3/Eigen/Core>
 
 #include "gtest/gtest.h"
 

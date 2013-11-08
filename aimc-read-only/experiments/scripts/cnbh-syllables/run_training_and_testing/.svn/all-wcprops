@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/175/trunk/experiments/scripts/cnbh-syllables/run_training_and_testing
+END
+gen_hhed_script.py
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/98/trunk/experiments/scripts/cnbh-syllables/run_training_and_testing/gen_hhed_script.py
+END
+run_test_instance.sh
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/127/trunk/experiments/scripts/cnbh-syllables/run_training_and_testing/run_test_instance.sh
+END
+randomize_snrs.py
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/175/trunk/experiments/scripts/cnbh-syllables/run_training_and_testing/randomize_snrs.py
+END
+gen_htk_base_files.sh
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/68/trunk/experiments/scripts/cnbh-syllables/run_training_and_testing/gen_htk_base_files.sh
+END
+gen_hmmproto.py
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/98/trunk/experiments/scripts/cnbh-syllables/run_training_and_testing/gen_hmmproto.py
+END
+test_features.sh
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/146/trunk/experiments/scripts/cnbh-syllables/run_training_and_testing/test_features.sh
+END

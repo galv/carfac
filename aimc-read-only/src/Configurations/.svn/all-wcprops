@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/267/trunk/src/Configurations
+END
+nap_profile_features_osc.aimcopycfg
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/245/trunk/src/Configurations/nap_profile_features_osc.aimcopycfg
+END
+NAP_dump.aimcconfig
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/174/trunk/src/Configurations/NAP_dump.aimcconfig
+END
+PZFC_dump.aimcconfig
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/174/trunk/src/Configurations/PZFC_dump.aimcconfig
+END
+SAI_json_dump.aimcconfig
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/267/trunk/src/Configurations/SAI_json_dump.aimcconfig
+END
+SAI_movie.aimcconfig
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/191/trunk/src/Configurations/SAI_movie.aimcconfig
+END
+SSI_movie.aimcconfig
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/144/trunk/src/Configurations/SSI_movie.aimcconfig
+END
+SAI_dump.aimcconfig
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/174/trunk/src/Configurations/SAI_dump.aimcconfig
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/svn/!svn/ver/187/trunk/swig
+END
+aimc_data_io.py
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/184/trunk/swig/aimc_data_io.py
+END
+example.py
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/180/trunk/swig/example.py
+END
+audio_example.py
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/186/trunk/swig/audio_example.py
+END
+aim_modules.i
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/144/trunk/swig/aim_modules.i
+END
+setup.py
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/187/trunk/swig/setup.py
+END

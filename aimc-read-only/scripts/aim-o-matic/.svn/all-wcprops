@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/193/trunk/scripts/aim-o-matic
+END
+aim-o-matic.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/192/trunk/scripts/aim-o-matic/aim-o-matic.php
+END
+prepare_aws_instance.sh
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/192/trunk/scripts/aim-o-matic/prepare_aws_instance.sh
+END
+aim_o_matic_cronjob.sh
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/192/trunk/scripts/aim-o-matic/aim_o_matic_cronjob.sh
+END
+upload-form.html
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/192/trunk/scripts/aim-o-matic/upload-form.html
+END
+prepare_aws_instance_stage_2.sh
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/193/trunk/scripts/aim-o-matic/prepare_aws_instance_stage_2.sh
+END

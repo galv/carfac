@@ -1,0 +1,14 @@
+import wave
+
+
+
+wavreader =  wave.open("./../test_data/")
+
+numchannels =  wavreader.getnchannels()
+print "channels: " + numchannels
+framerate =  wavreader.getframerate()
+print "framerate/samplerate: " + framerate
+numframes =  wavreader.getnframes()
+print "frames/samples: " + numframes
+#How to run in commandline: ./main3.o wavfilename channels framerate frames
+#system("./../carfac/main3.o "+ 

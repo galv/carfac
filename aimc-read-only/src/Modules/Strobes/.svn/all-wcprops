@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/62/trunk/src/Modules/Strobes
+END
+ModuleLocalMax.cc
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/56/trunk/src/Modules/Strobes/ModuleLocalMax.cc
+END
+ModuleParabola.cc
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/62/trunk/src/Modules/Strobes/ModuleParabola.cc
+END
+ModuleLocalMax.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/51/trunk/src/Modules/Strobes/ModuleLocalMax.h
+END
+ModuleParabola.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/51/trunk/src/Modules/Strobes/ModuleParabola.h
+END

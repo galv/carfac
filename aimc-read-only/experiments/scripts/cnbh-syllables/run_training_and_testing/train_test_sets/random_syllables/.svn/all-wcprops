@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/68/trunk/experiments/scripts/cnbh-syllables/run_training_and_testing/train_test_sets/random_syllables
+END
+test_syllables
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/68/trunk/experiments/scripts/cnbh-syllables/run_training_and_testing/train_test_sets/random_syllables/test_syllables
+END
+train_rand.mlf
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/68/trunk/experiments/scripts/cnbh-syllables/run_training_and_testing/train_test_sets/random_syllables/train_rand.mlf
+END
+test_rand.mlf
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/68/trunk/experiments/scripts/cnbh-syllables/run_training_and_testing/train_test_sets/random_syllables/test_rand.mlf
+END
+train_rand.scp
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/68/trunk/experiments/scripts/cnbh-syllables/run_training_and_testing/train_test_sets/random_syllables/train_rand.scp
+END
+test_rand.scp
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/68/trunk/experiments/scripts/cnbh-syllables/run_training_and_testing/train_test_sets/random_syllables/test_rand.scp
+END
+train_syllables
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/68/trunk/experiments/scripts/cnbh-syllables/run_training_and_testing/train_test_sets/random_syllables/train_syllables
+END

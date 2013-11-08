@@ -1,0 +1,3 @@
+To compile main.cc:
+
+g++ -o main3.o -Doverride= -I/usr/include/eigen3 -std=c++0x main3.cc /home/daniel/Desktop/LanguagePronunciation/carfac/cpp/libcarfac.a

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/245/trunk/experiments/scripts
+END
+master.sh
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/175/trunk/experiments/scripts/master.sh
+END
+setup_aws_instance.sh
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/146/trunk/experiments/scripts/setup_aws_instance.sh
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/173/trunk/src/Modules/BMM
+END
+ModulePZFC.cc
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/173/trunk/src/Modules/BMM/ModulePZFC.cc
+END
+ModulePZFC.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/54/trunk/src/Modules/BMM/ModulePZFC.h
+END
+ModuleGammatone.cc
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/135/trunk/src/Modules/BMM/ModuleGammatone.cc
+END
+ModuleGammatone_test.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/62/trunk/src/Modules/BMM/ModuleGammatone_test.py
+END
+ModuleGammatone.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/51/trunk/src/Modules/BMM/ModuleGammatone.h
+END

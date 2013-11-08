@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/114/trunk/experiments/scripts/cnbh-syllables/run_training_and_testing/train_test_sets/gen_spoke_points
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/68/trunk/experiments/scripts/cnbh-syllables/run_training_and_testing/train_test_sets/gen_spoke_points/README.txt
+END
+spoke_pattern.txt
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/114/trunk/experiments/scripts/cnbh-syllables/run_training_and_testing/train_test_sets/gen_spoke_points/spoke_pattern.txt
+END
+generate_train_test_sets.sh
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/68/trunk/experiments/scripts/cnbh-syllables/run_training_and_testing/train_test_sets/gen_spoke_points/generate_train_test_sets.sh
+END
+spoke_point.sh
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/68/trunk/experiments/scripts/cnbh-syllables/run_training_and_testing/train_test_sets/gen_spoke_points/spoke_point.sh
+END

@@ -1,0 +1,92 @@
+10
+
+dir
+313
+http://aimc.googlecode.com/svn/trunk
+http://aimc.googlecode.com/svn
+
+
+
+2013-07-18T20:56:51.348912Z
+313
+ronw@google.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+47b1ee86-127b-13bb-b609-7b595106ed26
+
+src
+dir
+
+scripts
+dir
+
+SConstruct
+file
+
+
+
+
+2013-10-28T05:11:07.000000Z
+07b675b2d2da5e639937dc176ae2c984
+2013-05-10T20:12:49.526066Z
+267
+sness@sness.net
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9522
+
+test_data
+dir
+
+C++
+dir
+
+swig
+dir
+
+matlab
+dir
+
+external
+dir
+
+experiments
+dir
+
+doc
+dir
+
+lint
+dir
+

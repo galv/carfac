@@ -1,0 +1,2 @@
+/home/daniel/Desktop/LanguagePronunciation/carfac/cpp/tmp/CMakeFiles/gtest.dir
+/home/daniel/Desktop/LanguagePronunciation/carfac/cpp/tmp/CMakeFiles/gtest_main.dir

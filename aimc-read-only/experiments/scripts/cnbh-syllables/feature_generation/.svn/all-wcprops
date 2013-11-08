@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/245/trunk/experiments/scripts/cnbh-syllables/feature_generation
+END
+pink_noise.sh
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/88/trunk/experiments/scripts/cnbh-syllables/feature_generation/pink_noise.sh
+END
+gen_hcopy_aimcopy_script.sh
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/100/trunk/experiments/scripts/cnbh-syllables/feature_generation/gen_hcopy_aimcopy_script.sh
+END
+nap_profile_features.aimcopycfg
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/135/trunk/experiments/scripts/cnbh-syllables/feature_generation/nap_profile_features.aimcopycfg
+END
+ssi_profile_features.aimcopycfg
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/155/trunk/experiments/scripts/cnbh-syllables/feature_generation/ssi_profile_features.aimcopycfg
+END
+convert_flac_to_wav.sh
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/79/trunk/experiments/scripts/cnbh-syllables/feature_generation/convert_flac_to_wav.sh
+END
+run_mfcc_vtln_conversion.sh
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/115/trunk/experiments/scripts/cnbh-syllables/feature_generation/run_mfcc_vtln_conversion.sh
+END
+run_aimcopy.sh
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/148/trunk/experiments/scripts/cnbh-syllables/feature_generation/run_aimcopy.sh
+END
+run_hcopy.sh
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/87/trunk/experiments/scripts/cnbh-syllables/feature_generation/run_hcopy.sh
+END

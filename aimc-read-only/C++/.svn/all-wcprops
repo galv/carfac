@@ -1,0 +1,251 @@
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/svn/!svn/ver/281/trunk/C++
+END
+PsychoAcoustics.C
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/281/trunk/C++/PsychoAcoustics.C
+END
+CARParam.C
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/281/trunk/C++/CARParam.C
+END
+PsychoAcoustics.H
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/281/trunk/C++/PsychoAcoustics.H
+END
+Ears.C
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/281/trunk/C++/Ears.C
+END
+AGC.C
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/281/trunk/C++/AGC.C
+END
+CARParam.H
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/281/trunk/C++/CARParam.H
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/281/trunk/C++/Makefile
+END
+CARFACCommon.H
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/281/trunk/C++/CARFACCommon.H
+END
+Ears.H
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/281/trunk/C++/Ears.H
+END
+AGC.H
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/281/trunk/C++/AGC.H
+END
+Parameters.C
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/281/trunk/C++/Parameters.C
+END
+CAR.C
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/281/trunk/C++/CAR.C
+END
+CARState.C
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/281/trunk/C++/CARState.C
+END
+Ear.C
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/281/trunk/C++/Ear.C
+END
+Parameters.H
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/281/trunk/C++/Parameters.H
+END
+CARCoeff.C
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/281/trunk/C++/CARCoeff.C
+END
+CAR.H
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/281/trunk/C++/CAR.H
+END
+AGCParam.C
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/281/trunk/C++/AGCParam.C
+END
+CARState.H
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/281/trunk/C++/CARState.H
+END
+Ear.H
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/281/trunk/C++/Ear.H
+END
+CARCoeff.H
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/281/trunk/C++/CARCoeff.H
+END
+AGCParam.H
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/281/trunk/C++/AGCParam.H
+END
+State.C
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/281/trunk/C++/State.C
+END
+IHCParam.C
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/281/trunk/C++/IHCParam.C
+END
+State.H
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/281/trunk/C++/State.H
+END
+IHCParam.H
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/281/trunk/C++/IHCParam.H
+END
+EarComponent.C
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/281/trunk/C++/EarComponent.C
+END
+AGCState.C
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/281/trunk/C++/AGCState.C
+END
+AGCCoeff.C
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/281/trunk/C++/AGCCoeff.C
+END
+EarComponent.H
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/281/trunk/C++/EarComponent.H
+END
+AGCState.H
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/281/trunk/C++/AGCState.H
+END
+Coefficients.C
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/281/trunk/C++/Coefficients.C
+END
+Doxyfile
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/257/trunk/C++/Doxyfile
+END
+AGCCoeff.H
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/281/trunk/C++/AGCCoeff.H
+END
+IHC.C
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/281/trunk/C++/IHC.C
+END
+IHCState.C
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/281/trunk/C++/IHCState.C
+END
+IHCCoeff.C
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/281/trunk/C++/IHCCoeff.C
+END
+Coefficients.H
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/281/trunk/C++/Coefficients.H
+END
+IHC.H
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/281/trunk/C++/IHC.H
+END
+IHCState.H
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/281/trunk/C++/IHCState.H
+END
+IHCCoeff.H
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/281/trunk/C++/IHCCoeff.H
+END

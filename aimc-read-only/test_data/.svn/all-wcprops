@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/181/trunk/test_data
+END
+short_example_mono.wav
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/181/trunk/test_data/short_example_mono.wav
+END
+short_example.wav
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/180/trunk/test_data/short_example.wav
+END

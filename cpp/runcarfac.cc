@@ -1,0 +1,155 @@
+// Copyright 2013 The CARFAC Authors. All Rights Reserved.
+// Author: Alex Brandmeyer
+//
+// This file is part of an implementation of Lyon's cochlear model:
+// "Cascade of Asymmetric Resonators with Fast-Acting Compression"
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+
+
+#include "carfac.h"
+
+#include <math.h>
+#include <string>
+#include <vector>
+
+#include <Eigen/Core>
+
+#include "gtest/gtest.h"
+
+#include "agc.h"
+#include "car.h"
+#include "common.h"
+#include "ihc.h"
+//#include "test_util.h"
+//#include "carfac_test.cc"
+
+#include <fstream>
+
+using std::vector;
+using namespace std;
+
+
+
+// Location of the text files produced by 'CARFAC_GenerateTestData.m' for        
+// comparing the ouput of the Matlab implementation with the C++ one.            
+static const char* kTestDataDir = "../../languagefiles/";
+
+// Reads a size rows by columns Eigen matrix from a text file written         
+// using the Matlab dlmwrite function.                                           
+ArrayXX LoadMatrix(const std::string& filename, int rows, int columns) {
+  std::string fullfile = kTestDataDir + filename;
+  std::ifstream file(fullfile.c_str());
+  ArrayXX output(rows, columns);
+  CARFAC_ASSERT(file.is_open());
+  for (int i = 0; i < rows; ++i) {
+    for (int j = 0; j < columns; ++j) {
+      file >> output(i, j);
+    }
+  }
+  file.close();
+  return output;
+}
+
+void WriteMatrix(const std::string& filename, const ArrayXX& matrix) {
+  std::string fullfile = kTestDataDir + filename;
+  std::ofstream ofile(fullfile.c_str());
+  const int kPrecision = 9;
+  ofile.precision(kPrecision);
+  if (ofile.is_open()) {
+    Eigen::IOFormat ioformat(kPrecision, Eigen::DontAlignCols);
+    ofile << matrix.format(ioformat) << std::endl;
+  }
+  cout << "Output location: " << fullfile << "\n";
+  ofile.close();
+}
+
+
+// Writes the CARFAC NAP output to a text file.
+void WriteNAPOutput(const CARFACOutput& output, const std::string& filename,
+                    int ear) {
+  WriteMatrix(filename, output.nap()[ear].transpose());
+}
+
+
+
+// Reads a two dimensional vector of audio data from a text file               
+// containing the output of the Matlab wavread() function.                     
+  
+ArrayXX LoadAudio(const std::string& filename, int num_samples, int num_ears) {
+  // The Matlab audio input is transposed compared to the C++.                   
+  return LoadMatrix(filename, num_samples, num_ears).transpose();
+}
+
+//Reads list of files in "files.txt" output from "ls > files.txt".
+Array LoadAndParseFiles(string fileList, string[] soundData):{
+
+  istream input;
+  int arraySize = 216;
+  string soundData[arraySize];
+  input.open(fileList);
+
+  for (int i = 0; i < arraySize; i++){
+    char tmp[256];
+    memset(tmp, '\0', sizeof tmp);
+    input.getline(input, soundData[i]);
+    soundData[i] = tmp;		
+  }
+}
+
+
+int main(){
+
+  //Declare fiels of interest.
+
+  CARParams car_params_;
+  IHCParams ihc_params_;
+  AGCParams agc_params_;
+  bool open_loop_ = false;
+  string dataDir = "../../data/";
+
+  //std::string audioTextFile = "binaural_test";                      
+
+  string fileList = "RussianWavFiles.txt";
+  ifstream input;
+  int arraySize = 216; //A little hacky. It's strangely not obvious how to find the number of lines in a text file in C++.
+  string soundData[arraySize];
+  input.open(dataDir + "RussianCARFAC/" + fileList);
+  for (int i = 0; i < arraySize; i++){
+    char tmp[256];
+    memset(tmp, '\0', sizeof tmp);
+    input.getline(input, soundData[i]);
+    soundData[i] = tmp;
+  }
+  //Create text files representing wav data.
+  for (int i = 0; i < arraySize; i++){   
+    system(("./sndfile-to-text ../../data/RussianCARFAC/Wav/" + soundData[i]  + " ../../data/textfiles/RussianCARFAC/WavText/" + soundData[i] + ".txt").c_str()); 
+  }                     
+
+  //String wavFiles [] = LoadAndParseFiles(dataDir + "RussianWavFiles.txt");
+
+  /*          
+  system(("./sndfile-to-text ../../languagefiles/" + audioTextFile  + ".wav" +  " ../../languagefiles/textfiles/" + audioTextFile + ".txt").c_str());
+                       
+  int num_samples = 882;
+  int num_ears = 2;
+  int num_channels = 71;
+  FPType sample_rate = 22050.0;
+  ArrayXX sound_data = LoadAudio(audioTextFile + "-audio.txt", num_samples, num_ears);
+
+  CARFAC carfac(num_ears, sample_rate, car_params_, ihc_params_, agc_params_);
+  CARFACOutput output(true, true, true, false);
+  carfac.RunSegment(sound_data, open_loop_, &output);
+  //WriteNAPOutput(output, audioTextFile + "-nap-test.txt", 0);
+  */
+}

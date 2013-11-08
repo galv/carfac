@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/193/trunk/scripts
+END
+build_python_module.sh
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/23/trunk/scripts/build_python_module.sh
+END
+gen_features.sh
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/49/trunk/scripts/gen_features.sh
+END
+build_docs.sh
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/23/trunk/scripts/build_docs.sh
+END
+aws_prepare.sh
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/114/trunk/scripts/aws_prepare.sh
+END
+run_ami.sh
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/35/trunk/scripts/run_ami.sh
+END
+install_htk.sh
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/38/trunk/scripts/install_htk.sh
+END
+HTKAimfeat.sh
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/37/trunk/scripts/HTKAimfeat.sh
+END
+lint_all.sh
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/23/trunk/scripts/lint_all.sh
+END
+ec2_user_data.sh
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/35/trunk/scripts/ec2_user_data.sh
+END

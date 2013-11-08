@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/284/trunk/src/Modules/Output/Graphics/Devices
+END
+GraphicsOutputDeviceMovieDirect.cc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/133/trunk/src/Modules/Output/Graphics/Devices/GraphicsOutputDeviceMovieDirect.cc
+END
+GraphicsOutputDeviceMovieDirect.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/133/trunk/src/Modules/Output/Graphics/Devices/GraphicsOutputDeviceMovieDirect.h
+END
+GraphicsOutputDevicewxGLCanvas.cc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/144/trunk/src/Modules/Output/Graphics/Devices/GraphicsOutputDevicewxGLCanvas.cc
+END
+GraphicsOutputDeviceCairo.cc
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/179/trunk/src/Modules/Output/Graphics/Devices/GraphicsOutputDeviceCairo.cc
+END
+GraphicsOutputDevicewxGLCanvas.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/131/trunk/src/Modules/Output/Graphics/Devices/GraphicsOutputDevicewxGLCanvas.h
+END
+GraphicsOutputDeviceCairo.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/176/trunk/src/Modules/Output/Graphics/Devices/GraphicsOutputDeviceCairo.h
+END
+GraphicsOutputDeviceMovie.cc
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/284/trunk/src/Modules/Output/Graphics/Devices/GraphicsOutputDeviceMovie.cc
+END
+GraphicsOutputDevicePlotutils.cc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/131/trunk/src/Modules/Output/Graphics/Devices/GraphicsOutputDevicePlotutils.cc
+END
+GraphicsOutputDevice.cc
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/144/trunk/src/Modules/Output/Graphics/Devices/GraphicsOutputDevice.cc
+END
+GraphicsOutputDeviceMovie.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/262/trunk/src/Modules/Output/Graphics/Devices/GraphicsOutputDeviceMovie.h
+END
+GraphicsOutputDevicePlotutils.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/131/trunk/src/Modules/Output/Graphics/Devices/GraphicsOutputDevicePlotutils.h
+END
+GraphicsOutputDevice.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/151/trunk/src/Modules/Output/Graphics/Devices/GraphicsOutputDevice.h
+END

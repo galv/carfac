@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/62/trunk/src/Modules/Profile
+END
+ModuleSlice_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/62/trunk/src/Modules/Profile/ModuleSlice_unittest.cc
+END
+ModuleSlice.cc
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/62/trunk/src/Modules/Profile/ModuleSlice.cc
+END
+ModuleSlice.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/51/trunk/src/Modules/Profile/ModuleSlice.h
+END
+ModuleScaler.cc
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/62/trunk/src/Modules/Profile/ModuleScaler.cc
+END
+ModuleScaler.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/51/trunk/src/Modules/Profile/ModuleScaler.h
+END

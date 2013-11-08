@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/173/trunk/src/Modules/Features
+END
+ModuleGaussians_test.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/62/trunk/src/Modules/Features/ModuleGaussians_test.py
+END
+ModuleGaussians.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/98/trunk/src/Modules/Features/ModuleGaussians.h
+END
+ModuleBoxes.cc
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/152/trunk/src/Modules/Features/ModuleBoxes.cc
+END
+ModuleBoxes.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/152/trunk/src/Modules/Features/ModuleBoxes.h
+END
+ModuleGaussians.cc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/173/trunk/src/Modules/Features/ModuleGaussians.cc
+END
